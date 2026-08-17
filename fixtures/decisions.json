@@ -1,0 +1,965 @@
+{
+  "seed": 20260814,
+  "decisions": [
+    {
+      "id": "d0001",
+      "instruction_id": "INS-0001",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-8091",
+        "amount": "1672.67"
+      },
+      "resulting_balances": {
+        "ACC-1555": "604.28",
+        "ACC-8091": "2523.16"
+      },
+      "self_confidence": 0.98,
+      "label": "well_formed_wrong",
+      "wrong_kind": "stale_balance"
+    },
+    {
+      "id": "d0002",
+      "instruction_id": "INS-0002",
+      "action": {
+        "from": "ACC-9303",
+        "to": "ACC-1555",
+        "amount": "3028.63"
+      },
+      "resulting_balances": {
+        "ACC-1555": "5769.32",
+        "ACC-9303": "793.78"
+      },
+      "self_confidence": 0.87,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0003",
+      "instruction_id": "INS-0003",
+      "action": {
+        "from": "ACC-6573",
+        "to": "ACC-8091",
+        "amount": "727.30"
+      },
+      "resulting_balances": {
+        "ACC-6573": "1271.77",
+        "ACC-8091": "1577.79"
+      },
+      "self_confidence": 0.94,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0004",
+      "instruction_id": "INS-0004",
+      "action": {
+        "from": "ACC-6573",
+        "to": "ACC-1555",
+        "amount": "41.14"
+      },
+      "resulting_balances": {
+        "ACC-1555": "2781.83",
+        "ACC-6573": "1933.38"
+      },
+      "self_confidence": 0.99,
+      "label": "well_formed_wrong",
+      "wrong_kind": "arithmetic_off_by"
+    },
+    {
+      "id": "d0005",
+      "instruction_id": "INS-0005",
+      "action": {
+        "from": "ACC-9565",
+        "to": "ACC-9471",
+        "amount": "6211.81"
+      },
+      "resulting_balances": {
+        "ACC-9471": "9912.26",
+        "ACC-9565": "2047.00"
+      },
+      "self_confidence": 0.87,
+      "label": "well_formed_wrong",
+      "wrong_kind": "arithmetic_off_by"
+    },
+    {
+      "id": "d0006",
+      "instruction_id": "INS-0006",
+      "action": {
+        "from": "ACC-1962",
+        "to": "ACC-8091",
+        "amount": "475.40"
+      },
+      "resulting_balances": {
+        "ACC-1962": "2062.41",
+        "ACC-8091": "1325.89"
+      },
+      "self_confidence": 0.94,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0007",
+      "instruction_id": "INS-0007",
+      "action": {
+        "from": "ACC-9565",
+        "to": "ACC-8091",
+        "amount": "2256.71"
+      },
+      "resulting_balances": {
+        "ACC-8091": "3107.20",
+        "ACC-9565": "5949.58"
+      },
+      "self_confidence": 0.86,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0008",
+      "instruction_id": "INS-0008",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-9303",
+        "amount": "437.20"
+      },
+      "resulting_balances": {
+        "ACC-8091": "413.29",
+        "ACC-9303": "4326.32"
+      },
+      "self_confidence": 0.98,
+      "label": "well_formed_wrong",
+      "wrong_kind": "stale_balance"
+    },
+    {
+      "id": "d0009",
+      "instruction_id": "INS-0009",
+      "action": {
+        "from": "ACC-9303",
+        "to": "ACC-9565",
+        "amount": "2627.22"
+      },
+      "resulting_balances": {
+        "ACC-9303": "1211.61",
+        "ACC-9565": "10833.51"
+      },
+      "self_confidence": 0.98,
+      "label": "well_formed_wrong",
+      "wrong_kind": "arithmetic_off_by"
+    },
+    {
+      "id": "d0010",
+      "instruction_id": "INS-0010",
+      "action": {
+        "from": "ACC-6573",
+        "to": "ACC-6922",
+        "amount": "867.01"
+      },
+      "resulting_balances": {
+        "ACC-6573": "1132.06",
+        "ACC-6922": "4784.63"
+      },
+      "self_confidence": 0.93,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0011",
+      "instruction_id": "INS-0011",
+      "action": {
+        "from": "ACC-6573",
+        "to": "ACC-1962",
+        "amount": "382.45"
+      },
+      "resulting_balances": {
+        "ACC-1962": "2920.26",
+        "ACC-6573": "1616.62"
+      },
+      "self_confidence": 0.92,
+      "label": "well_formed_wrong",
+      "wrong_kind": "wrong_account"
+    },
+    {
+      "id": "d0012",
+      "instruction_id": "INS-0012",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-1962",
+        "amount": "129.99"
+      },
+      "resulting_balances": {
+        "ACC-1962": "2667.80",
+        "ACC-8091": "730.82"
+      },
+      "self_confidence": 0.95,
+      "label": "well_formed_wrong",
+      "wrong_kind": "arithmetic_off_by"
+    },
+    {
+      "id": "d0013",
+      "instruction_id": "INS-0013",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-1962",
+        "amount": "1036.40"
+      },
+      "resulting_balances": {
+        "ACC-1555": "1704.29",
+        "ACC-1962": "3574.21"
+      },
+      "self_confidence": 0.96,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0014",
+      "instruction_id": "INS-0014",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-1962",
+        "amount": "1087.25"
+      },
+      "resulting_balances": {
+        "ACC-1555": "1653.44",
+        "ACC-1962": "3625.06"
+      },
+      "self_confidence": 0.76,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0015",
+      "instruction_id": "INS-0015",
+      "action": {
+        "from": "ACC-9565",
+        "to": "ACC-6573",
+        "amount": "5818.74"
+      },
+      "resulting_balances": {
+        "ACC-6573": "7817.81",
+        "ACC-9565": "2387.55"
+      },
+      "self_confidence": 0.6,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0016",
+      "instruction_id": "INS-0016",
+      "action": {
+        "from": "ACC-9303",
+        "to": "ACC-6573",
+        "amount": "4090.38"
+      },
+      "resulting_balances": {
+        "ACC-6573": "6089.45",
+        "ACC-9303": "0.00"
+      },
+      "self_confidence": 0.99,
+      "label": "well_formed_wrong",
+      "wrong_kind": "overdraft_ignored"
+    },
+    {
+      "id": "d0017",
+      "instruction_id": "INS-0017",
+      "action": {
+        "from": "ACC-9471",
+        "to": "ACC-9565",
+        "amount": "2270.63"
+      },
+      "resulting_balances": {
+        "ACC-9471": "1429.82",
+        "ACC-9565": "10476.92"
+      },
+      "self_confidence": 0.74,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0018",
+      "instruction_id": "INS-0018",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-8091",
+        "amount": "2664.25"
+      },
+      "resulting_balances": {
+        "ACC-1555": "76.44",
+        "ACC-8091": "3514.74"
+      },
+      "self_confidence": 0.9,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0019",
+      "instruction_id": "INS-0019",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-9471",
+        "amount": "77.71"
+      },
+      "resulting_balances": {
+        "ACC-8091": "772.78",
+        "ACC-9471": "3778.16"
+      },
+      "self_confidence": 0.86,
+      "label": "well_formed_wrong",
+      "wrong_kind": "wrong_account"
+    },
+    {
+      "id": "d0020",
+      "instruction_id": "INS-0020",
+      "action": {
+        "from": "ACC-9565",
+        "to": "ACC-9471",
+        "amount": "5735.33"
+      },
+      "resulting_balances": {
+        "ACC-9471": "9435.78",
+        "ACC-9565": "2470.96"
+      },
+      "self_confidence": 0.91,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0021",
+      "instruction_id": "INS-0021",
+      "action": {
+        "from": "ACC-9303",
+        "to": "ACC-9471",
+        "amount": "3197.49"
+      },
+      "resulting_balances": {
+        "ACC-9303": "573.72",
+        "ACC-9471": "6897.94"
+      },
+      "self_confidence": 0.92,
+      "label": "well_formed_wrong",
+      "wrong_kind": "arithmetic_off_by"
+    },
+    {
+      "id": "d0022",
+      "instruction_id": "INS-0022",
+      "action": {
+        "from": "ACC-9565",
+        "to": "ACC-1555",
+        "amount": "6161.25"
+      },
+      "resulting_balances": {
+        "ACC-1555": "8901.94",
+        "ACC-9565": "2045.04"
+      },
+      "self_confidence": 0.95,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0023",
+      "instruction_id": "INS-0023",
+      "action": {
+        "from": "ACC-1962",
+        "to": "ACC-6573",
+        "amount": "365.72"
+      },
+      "resulting_balances": {
+        "ACC-1962": "2172.09",
+        "ACC-6573": "2364.79"
+      },
+      "self_confidence": 0.96,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0024",
+      "instruction_id": "INS-0024",
+      "action": {
+        "from": "ACC-9471",
+        "to": "ACC-8091",
+        "amount": "1694.40"
+      },
+      "resulting_balances": {
+        "ACC-8091": "2544.89",
+        "ACC-9471": "1478.64"
+      },
+      "self_confidence": 0.88,
+      "label": "well_formed_wrong",
+      "wrong_kind": "stale_balance"
+    },
+    {
+      "id": "d0025",
+      "instruction_id": "INS-0025",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-9471",
+        "amount": "228.36"
+      },
+      "resulting_balances": {
+        "ACC-8091": "661.64",
+        "ACC-9471": "3928.81"
+      },
+      "self_confidence": 0.87,
+      "label": "well_formed_wrong",
+      "wrong_kind": "arithmetic_off_by"
+    },
+    {
+      "id": "d0026",
+      "instruction_id": "INS-0026",
+      "action": {
+        "from": "ACC-6573",
+        "to": "ACC-9565",
+        "amount": "1227.17"
+      },
+      "resulting_balances": {
+        "ACC-6573": "771.90",
+        "ACC-9565": "9433.46"
+      },
+      "self_confidence": 0.92,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0027",
+      "instruction_id": "INS-0027",
+      "action": {
+        "from": "ACC-9565",
+        "to": "ACC-9303",
+        "amount": "4209.01"
+      },
+      "resulting_balances": {
+        "ACC-9303": "8031.42",
+        "ACC-9565": "3997.28"
+      },
+      "self_confidence": 0.99,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0028",
+      "instruction_id": "INS-0028",
+      "action": {
+        "from": "ACC-6922",
+        "to": "ACC-9565",
+        "amount": "911.28"
+      },
+      "resulting_balances": {
+        "ACC-6922": "3006.34",
+        "ACC-9565": "9117.57"
+      },
+      "self_confidence": 0.95,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0029",
+      "instruction_id": "INS-0029",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-6922",
+        "amount": "1253.54"
+      },
+      "resulting_balances": {
+        "ACC-1555": "1487.15",
+        "ACC-6922": "5171.16"
+      },
+      "self_confidence": 0.98,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0030",
+      "instruction_id": "INS-0030",
+      "action": {
+        "from": "ACC-1962",
+        "to": "ACC-6922",
+        "amount": "1549.17"
+      },
+      "resulting_balances": {
+        "ACC-1962": "988.64",
+        "ACC-6922": "5381.90"
+      },
+      "self_confidence": 0.89,
+      "label": "well_formed_wrong",
+      "wrong_kind": "stale_balance"
+    },
+    {
+      "id": "d0031",
+      "instruction_id": "INS-0031",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-9565",
+        "amount": "785.07"
+      },
+      "resulting_balances": {
+        "ACC-8091": "65.42",
+        "ACC-9565": "8991.36"
+      },
+      "self_confidence": 0.61,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0032",
+      "instruction_id": "INS-0032",
+      "action": {
+        "from": "ACC-9303",
+        "to": "ACC-9565",
+        "amount": "786.04"
+      },
+      "resulting_balances": {
+        "ACC-9303": "3103.08",
+        "ACC-9565": "8992.33"
+      },
+      "self_confidence": 0.9,
+      "label": "well_formed_wrong",
+      "wrong_kind": "stale_balance"
+    },
+    {
+      "id": "d0033",
+      "instruction_id": "INS-0033",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-9471",
+        "amount": "1953.88"
+      },
+      "resulting_balances": {
+        "ACC-1555": "786.81",
+        "ACC-9471": "5654.33"
+      },
+      "self_confidence": 0.94,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0034",
+      "instruction_id": "INS-0034",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-6573",
+        "amount": "3553.85"
+      },
+      "resulting_balances": {
+        "ACC-1555": "-813.16",
+        "ACC-6573": "5552.92"
+      },
+      "self_confidence": 0.91,
+      "label": "well_formed_wrong",
+      "wrong_kind": "overdraft_ignored"
+    },
+    {
+      "id": "d0035",
+      "instruction_id": "INS-0035",
+      "action": {
+        "from": "ACC-1962",
+        "to": "ACC-6573",
+        "amount": "1357.80"
+      },
+      "resulting_balances": {
+        "ACC-1962": "1180.01",
+        "ACC-6573": "3356.87"
+      },
+      "self_confidence": 0.96,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0036",
+      "instruction_id": "INS-0036",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-6573",
+        "amount": "1576.49"
+      },
+      "resulting_balances": {
+        "ACC-1555": "1164.20",
+        "ACC-6573": "3575.56"
+      },
+      "self_confidence": 0.88,
+      "label": "well_formed_wrong",
+      "wrong_kind": "wrong_account"
+    },
+    {
+      "id": "d0037",
+      "instruction_id": "INS-0037",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-6922",
+        "amount": "152.12"
+      },
+      "resulting_balances": {
+        "ACC-6922": "4069.74",
+        "ACC-8091": "698.37"
+      },
+      "self_confidence": 0.88,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0038",
+      "instruction_id": "INS-0038",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-9303",
+        "amount": "542.06"
+      },
+      "resulting_balances": {
+        "ACC-8091": "308.43",
+        "ACC-9303": "4364.47"
+      },
+      "self_confidence": 0.87,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0039",
+      "instruction_id": "INS-0039",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-9303",
+        "amount": "955.93"
+      },
+      "resulting_balances": {
+        "ACC-1555": "1784.76",
+        "ACC-9303": "4778.34"
+      },
+      "self_confidence": 0.99,
+      "label": "well_formed_wrong",
+      "wrong_kind": "wrong_account"
+    },
+    {
+      "id": "d0040",
+      "instruction_id": "INS-0040",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-6922",
+        "amount": "2005.26"
+      },
+      "resulting_balances": {
+        "ACC-6922": "5922.88",
+        "ACC-8091": "-1154.77"
+      },
+      "self_confidence": 0.89,
+      "label": "well_formed_wrong",
+      "wrong_kind": "overdraft_ignored"
+    },
+    {
+      "id": "d0041",
+      "instruction_id": "INS-0041",
+      "action": {
+        "from": "ACC-6922",
+        "to": "ACC-8091",
+        "amount": "1292.40"
+      },
+      "resulting_balances": {
+        "ACC-6922": "2625.22",
+        "ACC-8091": "2142.89"
+      },
+      "self_confidence": 0.91,
+      "label": "well_formed_wrong",
+      "wrong_kind": "wrong_account"
+    },
+    {
+      "id": "d0042",
+      "instruction_id": "INS-0042",
+      "action": {
+        "from": "ACC-9471",
+        "to": "ACC-9303",
+        "amount": "476.81"
+      },
+      "resulting_balances": {
+        "ACC-9303": "4299.22",
+        "ACC-9471": "3223.64"
+      },
+      "self_confidence": 0.97,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0043",
+      "instruction_id": "INS-0043",
+      "action": {
+        "from": "ACC-6573",
+        "to": "ACC-8091",
+        "amount": "1833.40"
+      },
+      "resulting_balances": {
+        "ACC-6573": "165.67",
+        "ACC-8091": "2683.89"
+      },
+      "self_confidence": 0.94,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0044",
+      "instruction_id": "INS-0044",
+      "action": {
+        "from": "ACC-6922",
+        "to": "ACC-1555",
+        "amount": "4482.17"
+      },
+      "resulting_balances": {
+        "ACC-1555": "7222.86",
+        "ACC-6922": "-564.55"
+      },
+      "self_confidence": 0.98,
+      "label": "well_formed_wrong",
+      "wrong_kind": "overdraft_ignored"
+    },
+    {
+      "id": "d0045",
+      "instruction_id": "INS-0045",
+      "action": {
+        "from": "ACC-9303",
+        "to": "ACC-6922",
+        "amount": "1057.63"
+      },
+      "resulting_balances": {
+        "ACC-6922": "4975.25",
+        "ACC-9303": "2764.78"
+      },
+      "self_confidence": 0.88,
+      "label": "well_formed_wrong",
+      "wrong_kind": "wrong_account"
+    },
+    {
+      "id": "d0046",
+      "instruction_id": "INS-0046",
+      "action": {
+        "from": "ACC-6922",
+        "to": "ACC-1555",
+        "amount": "4343.01"
+      },
+      "resulting_balances": {
+        "ACC-1555": "7083.70",
+        "ACC-6922": "0.00"
+      },
+      "self_confidence": 0.97,
+      "label": "well_formed_wrong",
+      "wrong_kind": "overdraft_ignored"
+    },
+    {
+      "id": "d0047",
+      "instruction_id": "INS-0047",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-6922",
+        "amount": "2632.55"
+      },
+      "resulting_balances": {
+        "ACC-1555": "108.14",
+        "ACC-6922": "6550.17"
+      },
+      "self_confidence": 0.67,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0048",
+      "instruction_id": "INS-0048",
+      "action": {
+        "from": "ACC-1962",
+        "to": "ACC-8091",
+        "amount": "492.12"
+      },
+      "resulting_balances": {
+        "ACC-1962": "2045.69",
+        "ACC-8091": "1342.61"
+      },
+      "self_confidence": 0.88,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0049",
+      "instruction_id": "INS-0049",
+      "action": {
+        "from": "ACC-9303",
+        "to": "ACC-6573",
+        "amount": "4070.60"
+      },
+      "resulting_balances": {
+        "ACC-6573": "6069.67",
+        "ACC-9303": "-248.19"
+      },
+      "self_confidence": 0.97,
+      "label": "well_formed_wrong",
+      "wrong_kind": "overdraft_ignored"
+    },
+    {
+      "id": "d0050",
+      "instruction_id": "INS-0050",
+      "action": {
+        "from": "ACC-6922",
+        "to": "ACC-9471",
+        "amount": "486.00"
+      },
+      "resulting_balances": {
+        "ACC-6922": "3431.62",
+        "ACC-9471": "4186.45"
+      },
+      "self_confidence": 0.95,
+      "label": "well_formed_wrong",
+      "wrong_kind": "wrong_account"
+    },
+    {
+      "id": "d0051",
+      "instruction_id": "INS-0051",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-9303",
+        "amount": "737.28"
+      },
+      "resulting_balances": {
+        "ACC-8091": "113.21",
+        "ACC-9303": "4559.69"
+      },
+      "self_confidence": 0.94,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0052",
+      "instruction_id": "INS-0052",
+      "action": {
+        "from": "ACC-9565",
+        "to": "ACC-9471",
+        "amount": "8629.46"
+      },
+      "resulting_balances": {
+        "ACC-9471": "12329.91",
+        "ACC-9565": "-423.17"
+      },
+      "self_confidence": 0.9,
+      "label": "well_formed_wrong",
+      "wrong_kind": "overdraft_ignored"
+    },
+    {
+      "id": "d0053",
+      "instruction_id": "INS-0053",
+      "action": {
+        "from": "ACC-6922",
+        "to": "ACC-9303",
+        "amount": "229.57"
+      },
+      "resulting_balances": {
+        "ACC-6922": "3688.05",
+        "ACC-9303": "4051.98"
+      },
+      "self_confidence": 0.9,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0054",
+      "instruction_id": "INS-0054",
+      "action": {
+        "from": "ACC-1962",
+        "to": "ACC-6922",
+        "amount": "2405.12"
+      },
+      "resulting_balances": {
+        "ACC-1962": "132.69",
+        "ACC-6922": "6322.74"
+      },
+      "self_confidence": 0.92,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0055",
+      "instruction_id": "INS-0055",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-6922",
+        "amount": "273.33"
+      },
+      "resulting_balances": {
+        "ACC-6922": "4190.95",
+        "ACC-8091": "590.55"
+      },
+      "self_confidence": 0.87,
+      "label": "well_formed_wrong",
+      "wrong_kind": "arithmetic_off_by"
+    },
+    {
+      "id": "d0056",
+      "instruction_id": "INS-0056",
+      "action": {
+        "from": "ACC-9303",
+        "to": "ACC-6922",
+        "amount": "1503.01"
+      },
+      "resulting_balances": {
+        "ACC-6922": "5420.63",
+        "ACC-9303": "2249.48"
+      },
+      "self_confidence": 0.87,
+      "label": "well_formed_wrong",
+      "wrong_kind": "arithmetic_off_by"
+    },
+    {
+      "id": "d0057",
+      "instruction_id": "INS-0057",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-1962",
+        "amount": "218.95"
+      },
+      "resulting_balances": {
+        "ACC-1962": "3387.09",
+        "ACC-8091": "631.54"
+      },
+      "self_confidence": 0.96,
+      "label": "well_formed_wrong",
+      "wrong_kind": "stale_balance"
+    },
+    {
+      "id": "d0058",
+      "instruction_id": "INS-0058",
+      "action": {
+        "from": "ACC-1962",
+        "to": "ACC-9303",
+        "amount": "3546.80"
+      },
+      "resulting_balances": {
+        "ACC-1962": "0.00",
+        "ACC-9303": "7369.21"
+      },
+      "self_confidence": 0.97,
+      "label": "well_formed_wrong",
+      "wrong_kind": "overdraft_ignored"
+    },
+    {
+      "id": "d0059",
+      "instruction_id": "INS-0059",
+      "action": {
+        "from": "ACC-8091",
+        "to": "ACC-6922",
+        "amount": "725.65"
+      },
+      "resulting_balances": {
+        "ACC-6922": "4643.27",
+        "ACC-8091": "124.84"
+      },
+      "self_confidence": 0.9,
+      "label": "correct",
+      "wrong_kind": null
+    },
+    {
+      "id": "d0060",
+      "instruction_id": "INS-0060",
+      "action": {
+        "from": "ACC-1555",
+        "to": "ACC-6573",
+        "amount": "1577.13"
+      },
+      "resulting_balances": {
+        "ACC-1555": "1163.56",
+        "ACC-6573": "3818.50"
+      },
+      "self_confidence": 0.97,
+      "label": "well_formed_wrong",
+      "wrong_kind": "stale_balance"
+    }
+  ]
+}

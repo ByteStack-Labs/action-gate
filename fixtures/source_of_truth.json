@@ -1,0 +1,584 @@
+{
+  "seed": 20260814,
+  "currency": "USD",
+  "accounts": [
+    {
+      "id": "ACC-1555",
+      "holder": "Northwind Trading",
+      "opening_balance": "2437.20"
+    },
+    {
+      "id": "ACC-1962",
+      "holder": "Cedar Row Holdings",
+      "opening_balance": "2293.65"
+    },
+    {
+      "id": "ACC-6573",
+      "holder": "Halyard Freight",
+      "opening_balance": "2818.57"
+    },
+    {
+      "id": "ACC-6922",
+      "holder": "Blue Marten Supply",
+      "opening_balance": "3905.60"
+    },
+    {
+      "id": "ACC-8091",
+      "holder": "Kestrel Analytics",
+      "opening_balance": "1612.30"
+    },
+    {
+      "id": "ACC-9303",
+      "holder": "Ironwood Fabrication",
+      "opening_balance": "3302.37"
+    },
+    {
+      "id": "ACC-9471",
+      "holder": "Salt Flat Logistics",
+      "opening_balance": "2604.92"
+    },
+    {
+      "id": "ACC-9565",
+      "holder": "Meridian Print Works",
+      "opening_balance": "8346.67"
+    }
+  ],
+  "adjustments": [
+    {
+      "seq": 1,
+      "account": "ACC-8091",
+      "delta": "-214.93",
+      "memo": "deposit"
+    },
+    {
+      "seq": 2,
+      "account": "ACC-9565",
+      "delta": "-574.52",
+      "memo": "interest posting"
+    },
+    {
+      "seq": 3,
+      "account": "ACC-8091",
+      "delta": "-603.40",
+      "memo": "wire credit"
+    },
+    {
+      "seq": 4,
+      "account": "ACC-1962",
+      "delta": "409.02",
+      "memo": "interest posting"
+    },
+    {
+      "seq": 5,
+      "account": "ACC-9303",
+      "delta": "586.75",
+      "memo": "supplier payment"
+    },
+    {
+      "seq": 6,
+      "account": "ACC-6573",
+      "delta": "-577.20",
+      "memo": "card settlement"
+    },
+    {
+      "seq": 7,
+      "account": "ACC-6922",
+      "delta": "-72.87",
+      "memo": "supplier payment"
+    },
+    {
+      "seq": 8,
+      "account": "ACC-1555",
+      "delta": "-160.25",
+      "memo": "wire credit"
+    },
+    {
+      "seq": 9,
+      "account": "ACC-1962",
+      "delta": "465.47",
+      "memo": "monthly fee"
+    },
+    {
+      "seq": 10,
+      "account": "ACC-8091",
+      "delta": "56.52",
+      "memo": "vendor refund"
+    },
+    {
+      "seq": 11,
+      "account": "ACC-9565",
+      "delta": "434.14",
+      "memo": "interest posting"
+    },
+    {
+      "seq": 12,
+      "account": "ACC-1962",
+      "delta": "-630.33",
+      "memo": "chargeback"
+    },
+    {
+      "seq": 13,
+      "account": "ACC-9471",
+      "delta": "207.23",
+      "memo": "interest posting"
+    },
+    {
+      "seq": 14,
+      "account": "ACC-1555",
+      "delta": "463.74",
+      "memo": "deposit"
+    },
+    {
+      "seq": 15,
+      "account": "ACC-9303",
+      "delta": "-66.71",
+      "memo": "deposit"
+    },
+    {
+      "seq": 16,
+      "account": "ACC-6922",
+      "delta": "84.89",
+      "memo": "card settlement"
+    },
+    {
+      "seq": 17,
+      "account": "ACC-9471",
+      "delta": "360.89",
+      "memo": "supplier payment"
+    },
+    {
+      "seq": 18,
+      "account": "ACC-6573",
+      "delta": "-242.30",
+      "memo": "card settlement"
+    },
+    {
+      "seq": 19,
+      "account": "ACC-9471",
+      "delta": "527.41",
+      "memo": "monthly fee"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "INS-0001",
+      "from": "ACC-1555",
+      "to": "ACC-8091",
+      "amount": "1672.67",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0002",
+      "from": "ACC-9303",
+      "to": "ACC-1555",
+      "amount": "3028.63",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0003",
+      "from": "ACC-6573",
+      "to": "ACC-8091",
+      "amount": "727.30",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0004",
+      "from": "ACC-6573",
+      "to": "ACC-1555",
+      "amount": "41.14",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0005",
+      "from": "ACC-9565",
+      "to": "ACC-9471",
+      "amount": "6211.81",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0006",
+      "from": "ACC-1962",
+      "to": "ACC-8091",
+      "amount": "475.40",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0007",
+      "from": "ACC-9565",
+      "to": "ACC-8091",
+      "amount": "2256.71",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0008",
+      "from": "ACC-8091",
+      "to": "ACC-9303",
+      "amount": "437.20",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0009",
+      "from": "ACC-9303",
+      "to": "ACC-9565",
+      "amount": "2627.22",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0010",
+      "from": "ACC-6573",
+      "to": "ACC-6922",
+      "amount": "867.01",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0011",
+      "from": "ACC-6573",
+      "to": "ACC-9303",
+      "amount": "382.45",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0012",
+      "from": "ACC-8091",
+      "to": "ACC-1962",
+      "amount": "129.99",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0013",
+      "from": "ACC-1555",
+      "to": "ACC-1962",
+      "amount": "1036.40",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0014",
+      "from": "ACC-1555",
+      "to": "ACC-1962",
+      "amount": "1087.25",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0015",
+      "from": "ACC-9565",
+      "to": "ACC-6573",
+      "amount": "5818.74",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0016",
+      "from": "ACC-9303",
+      "to": "ACC-6573",
+      "amount": "4090.38",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0017",
+      "from": "ACC-9471",
+      "to": "ACC-9565",
+      "amount": "2270.63",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0018",
+      "from": "ACC-1555",
+      "to": "ACC-8091",
+      "amount": "2664.25",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0019",
+      "from": "ACC-8091",
+      "to": "ACC-1962",
+      "amount": "77.71",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0020",
+      "from": "ACC-9565",
+      "to": "ACC-9471",
+      "amount": "5735.33",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0021",
+      "from": "ACC-9303",
+      "to": "ACC-9471",
+      "amount": "3197.49",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0022",
+      "from": "ACC-9565",
+      "to": "ACC-1555",
+      "amount": "6161.25",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0023",
+      "from": "ACC-1962",
+      "to": "ACC-6573",
+      "amount": "365.72",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0024",
+      "from": "ACC-9471",
+      "to": "ACC-8091",
+      "amount": "1694.40",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0025",
+      "from": "ACC-8091",
+      "to": "ACC-9471",
+      "amount": "228.36",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0026",
+      "from": "ACC-6573",
+      "to": "ACC-9565",
+      "amount": "1227.17",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0027",
+      "from": "ACC-9565",
+      "to": "ACC-9303",
+      "amount": "4209.01",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0028",
+      "from": "ACC-6922",
+      "to": "ACC-9565",
+      "amount": "911.28",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0029",
+      "from": "ACC-1555",
+      "to": "ACC-6922",
+      "amount": "1253.54",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0030",
+      "from": "ACC-1962",
+      "to": "ACC-6922",
+      "amount": "1549.17",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0031",
+      "from": "ACC-8091",
+      "to": "ACC-9565",
+      "amount": "785.07",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0032",
+      "from": "ACC-9303",
+      "to": "ACC-9565",
+      "amount": "786.04",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0033",
+      "from": "ACC-1555",
+      "to": "ACC-9471",
+      "amount": "1953.88",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0034",
+      "from": "ACC-1555",
+      "to": "ACC-6573",
+      "amount": "3553.85",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0035",
+      "from": "ACC-1962",
+      "to": "ACC-6573",
+      "amount": "1357.80",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0036",
+      "from": "ACC-1555",
+      "to": "ACC-6922",
+      "amount": "1576.49",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0037",
+      "from": "ACC-8091",
+      "to": "ACC-6922",
+      "amount": "152.12",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0038",
+      "from": "ACC-8091",
+      "to": "ACC-9303",
+      "amount": "542.06",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0039",
+      "from": "ACC-1555",
+      "to": "ACC-6922",
+      "amount": "955.93",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0040",
+      "from": "ACC-8091",
+      "to": "ACC-6922",
+      "amount": "2005.26",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0041",
+      "from": "ACC-6922",
+      "to": "ACC-6573",
+      "amount": "1292.40",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0042",
+      "from": "ACC-9471",
+      "to": "ACC-9303",
+      "amount": "476.81",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0043",
+      "from": "ACC-6573",
+      "to": "ACC-8091",
+      "amount": "1833.40",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0044",
+      "from": "ACC-6922",
+      "to": "ACC-1555",
+      "amount": "4482.17",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0045",
+      "from": "ACC-9303",
+      "to": "ACC-1555",
+      "amount": "1057.63",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0046",
+      "from": "ACC-6922",
+      "to": "ACC-1555",
+      "amount": "4343.01",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0047",
+      "from": "ACC-1555",
+      "to": "ACC-6922",
+      "amount": "2632.55",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0048",
+      "from": "ACC-1962",
+      "to": "ACC-8091",
+      "amount": "492.12",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0049",
+      "from": "ACC-9303",
+      "to": "ACC-6573",
+      "amount": "4070.60",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0050",
+      "from": "ACC-6922",
+      "to": "ACC-8091",
+      "amount": "486.00",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0051",
+      "from": "ACC-8091",
+      "to": "ACC-9303",
+      "amount": "737.28",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0052",
+      "from": "ACC-9565",
+      "to": "ACC-9471",
+      "amount": "8629.46",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0053",
+      "from": "ACC-6922",
+      "to": "ACC-9303",
+      "amount": "229.57",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0054",
+      "from": "ACC-1962",
+      "to": "ACC-6922",
+      "amount": "2405.12",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0055",
+      "from": "ACC-8091",
+      "to": "ACC-6922",
+      "amount": "273.33",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0056",
+      "from": "ACC-9303",
+      "to": "ACC-6922",
+      "amount": "1503.01",
+      "memo": "invoice settlement"
+    },
+    {
+      "id": "INS-0057",
+      "from": "ACC-8091",
+      "to": "ACC-1962",
+      "amount": "218.95",
+      "memo": "rebate"
+    },
+    {
+      "id": "INS-0058",
+      "from": "ACC-1962",
+      "to": "ACC-9303",
+      "amount": "3546.80",
+      "memo": "payroll run"
+    },
+    {
+      "id": "INS-0059",
+      "from": "ACC-8091",
+      "to": "ACC-6922",
+      "amount": "725.65",
+      "memo": "supplier payment"
+    },
+    {
+      "id": "INS-0060",
+      "from": "ACC-1555",
+      "to": "ACC-6573",
+      "amount": "1577.13",
+      "memo": "invoice settlement"
+    }
+  ]
+}
