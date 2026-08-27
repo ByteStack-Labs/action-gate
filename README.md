@@ -139,12 +139,11 @@ is — and that the check should fail closed when the two disagree.
 
 Part of the ByteStack Labs reliability work:
 
-- **agent-reliability** (the tool that detects the failure): https://github.com/ByteStack-Labs/claude-plugins
-- **agent-reliability-receipts** (the proofs): https://github.com/ByteStack-Labs/agent-reliability-receipts
-- **action-gate** (this repo — the gate between decision and irreversible action)
+- **agent-reliability** (the plugin that detects the failure, in the [`claude-plugins`](https://github.com/ByteStack-Labs/claude-plugins) marketplace): audits AI that passes evaluation but fails in production.
+- **[agent-reliability-receipts](https://github.com/ByteStack-Labs/agent-reliability-receipts)** (the proofs): public fixtures diagnosed by the plugin, the tool's output committed as a receipt. Clone it and rerun every number.
+- **action-gate** (this repo): the gate between a decision and an irreversible action.
 
-Detection tells you the agent was wrong. The receipt proves it. The gate decides whether wrong
-reaches the world.
+Detection tells you the agent was wrong. The receipt proves it. The gate decides whether wrong reaches the world.
 
 ## License
 
