@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">action-gate: the verification floor between a decision and an irreversible action</title>
+  <desc id="hero-desc">One well-formed but wrong agent decision enters three gates. The confidence gate and the judge gate both approve it and it reaches an irreversible action. The reconciliation gate re-derives the fact from the source of truth and refuses it, approving zero dangerous actions.</desc>
+
+  <rect x="0" y="0" width="1200" height="630" fill="#0b1220"/>
+  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="#1c2b42" stroke-width="2"/>
+
+  <!-- masthead -->
+  <text x="48" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="38" fill="#e6edf7" letter-spacing="1">action-gate</text>
+  <text x="48" y="110" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#93a6c2">The verification floor between an agent's decision and an irreversible action.</text>
+  <line x1="48" y1="134" x2="1152" y2="134" stroke="#1c2b42" stroke-width="2"/>
+
+  <!-- the decision -->
+  <rect x="48" y="176" width="228" height="248" rx="10" fill="#111a2b" stroke="#3d5273" stroke-width="2"/>
+  <text x="162" y="264" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" fill="#e6edf7" letter-spacing="1">AGENT</text>
+  <text x="162" y="290" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" fill="#e6edf7" letter-spacing="1">DECISION</text>
+  <text x="162" y="330" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#93a6c2">well-formed</text>
+  <text x="162" y="352" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#93a6c2">confident</text>
+  <text x="162" y="374" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#ff7b72">wrong</text>
+
+  <!-- lane 1: confidence_gate -->
+  <line x1="276" y1="215" x2="362" y2="215" stroke="#3d5273" stroke-width="2"/>
+  <path d="M372,215 L360,209 L360,221 Z" fill="#3d5273"/>
+  <rect x="372" y="184" width="336" height="62" rx="8" fill="#111a2b" stroke="#3d5273" stroke-width="2"/>
+  <text x="396" y="211" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#e6edf7">confidence_gate</text>
+  <text x="396" y="233" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#93a6c2">reads the agent's self-report</text>
+  <line x1="708" y1="215" x2="864" y2="215" stroke="#ff7b72" stroke-width="2"/>
+  <path d="M876,215 L862,208 L862,222 Z" fill="#ff7b72"/>
+  <text x="742" y="203" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#ff7b72" letter-spacing="1">APPROVED</text>
+
+  <!-- lane 2: judge_gate -->
+  <line x1="276" y1="305" x2="362" y2="305" stroke="#3d5273" stroke-width="2"/>
+  <path d="M372,305 L360,299 L360,311 Z" fill="#3d5273"/>
+  <rect x="372" y="274" width="336" height="62" rx="8" fill="#111a2b" stroke="#3d5273" stroke-width="2"/>
+  <text x="396" y="301" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#e6edf7">judge_gate</text>
+  <text x="396" y="323" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#93a6c2">reads the decision's surface</text>
+  <line x1="708" y1="305" x2="864" y2="305" stroke="#ff7b72" stroke-width="2"/>
+  <path d="M876,305 L862,298 L862,312 Z" fill="#ff7b72"/>
+  <text x="742" y="293" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#ff7b72" letter-spacing="1">APPROVED</text>
+
+  <!-- lane 3: reconciliation_gate -->
+  <line x1="276" y1="395" x2="362" y2="395" stroke="#3d5273" stroke-width="2"/>
+  <path d="M372,395 L360,389 L360,401 Z" fill="#3d5273"/>
+  <rect x="372" y="364" width="336" height="62" rx="8" fill="#0f2018" stroke="#3fb950" stroke-width="2"/>
+  <text x="396" y="391" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#e6edf7">reconciliation_gate</text>
+  <text x="396" y="413" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#93a6c2">re-derives the fact from the source of truth</text>
+  <line x1="708" y1="395" x2="774" y2="395" stroke="#3fb950" stroke-width="2"/>
+  <rect x="778" y="357" width="14" height="76" rx="4" fill="#3fb950"/>
+  <text x="806" y="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#3fb950" letter-spacing="1">REFUSED</text>
+
+  <!-- the irreversible action -->
+  <rect x="884" y="176" width="268" height="248" rx="10" fill="#1b1013" stroke="#ff7b72" stroke-width="2"/>
+  <text x="1018" y="278" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#ff7b72" letter-spacing="1">IRREVERSIBLE</text>
+  <text x="1018" y="304" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#ff7b72" letter-spacing="1">ACTION</text>
+  <text x="1018" y="344" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#93a6c2">the money leaves</text>
+  <text x="1018" y="366" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#93a6c2">there is no undo</text>
+
+  <text x="1152" y="480" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="26" fill="#3fb950">0 dangerous approvals</text>
+  <text x="1152" y="504" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#93a6c2">across every decision in the fixture</text>
+
+  <!-- the source of truth, feeding only the third gate -->
+  <ellipse cx="162" cy="556" rx="114" ry="16" fill="#111a2b" stroke="#3fb950" stroke-width="2"/>
+  <rect x="48" y="512" width="228" height="44" fill="#111a2b"/>
+  <line x1="48" y1="512" x2="48" y2="556" stroke="#3fb950" stroke-width="2"/>
+  <line x1="276" y1="512" x2="276" y2="556" stroke="#3fb950" stroke-width="2"/>
+  <ellipse cx="162" cy="512" rx="114" ry="16" fill="#111a2b" stroke="#3fb950" stroke-width="2"/>
+  <text x="162" y="546" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#e6edf7" letter-spacing="1">SOURCE OF TRUTH</text>
+  <path d="M300,534 L420,534 L420,442" fill="none" stroke="#3fb950" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M420,428 L413,442 L427,442 Z" fill="#3fb950"/>
+  <text x="440" y="530" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#93a6c2" font-style="italic">a signal the agent does not own</text>
+
+  <line x1="48" y1="578" x2="1152" y2="578" stroke="#1c2b42" stroke-width="2"/>
+  <text x="48" y="606" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6c8299">seeded fixture · standard library · no model · no network · every figure re-derives from committed data</text>
+</svg>
