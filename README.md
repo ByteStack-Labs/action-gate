@@ -152,3 +152,5 @@ MIT. See [LICENSE](LICENSE).
 ---
 
 Precision is the authority. Verified, not asserted.
+
+Built by [Jesse Moses](https://github.com/Cre4T3Tiv3) at [ByteStack Labs](https://bytestacklabs.com).
