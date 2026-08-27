@@ -2,7 +2,7 @@
 
 **The verification floor between an agent's decision and an irreversible action.**
 
-![An agent decision enters three gates: a confidence gate and a judge gate approve it and it reaches an irreversible action; a reconciliation gate re-derives the fact from the source of truth and refuses it.](docs/assets/action-gate-hero.svg)
+![An agent decision enters three gates: a confidence gate and a judge gate approve it and it reaches an irreversible action; a reconciliation gate re-derives the fact from the source of truth and refuses it.](docs/assets/action-gate-hero.png)
 
 An agent is one call away from moving money. Its decision parses. Every field is present, the
 arithmetic is internally consistent, and it reports high confidence. It is also wrong: the payee
