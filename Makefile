@@ -1,7 +1,10 @@
-PYTHON ?= python3
+# Prefer the project virtualenv when one is present, so `make test` works on a
+# fresh clone without activating it first. Override with `make PYTHON=...`.
+VENV_PYTHON := .venv/bin/python
+PYTHON ?= $(shell test -x $(VENV_PYTHON) && echo $(VENV_PYTHON) || echo python3)
 export PYTHONPATH := src$(if $(PYTHONPATH),:$(PYTHONPATH))
 
-.PHONY: all fixtures verify test receipt
+.PHONY: all venv fixtures verify test receipt
 
 # Regenerate fixtures, rebuild the receipt, re-derive every number, run the tests.
 all: fixtures receipt verify test
@@ -14,6 +17,13 @@ fixtures:
 verify:
 	$(PYTHON) -m action_gate.verify
 
+# Isolated dev environment: pytest is the only dependency, and it stays out of
+# the system interpreter. The core library itself needs nothing but the stdlib.
+venv:
+	uv venv
+	uv pip install -e ".[dev]"
+
+# pytest only; no model, no network.
 test:
 	$(PYTHON) -m pytest
 
